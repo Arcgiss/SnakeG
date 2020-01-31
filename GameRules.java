@@ -1,9 +1,5 @@
 package as;
 
-/**
- *
- * @author PC
- */
 public class GameRules extends Snake {
         public boolean collideWithSelf() {
         Rect headR= body[head];

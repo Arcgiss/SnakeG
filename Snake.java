@@ -31,7 +31,6 @@ public class Snake {
         }
         head--;
     }
-
    
     public void changeDirecton(Direction newDirection) {
         if (newDirection == Direction.RIGHT && direction != Direction.LEFT)
